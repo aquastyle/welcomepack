@@ -7,7 +7,7 @@ html {
 
 .welcome__bg {
     height: 100vh;
-    background-image: url(../img/BG.png);
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,6 @@ html {
 .font{
     display: flex;
     justify-content: space-between;
-    position: absolute;
     bottom: -4px; 
 }
 //img
@@ -30,31 +29,32 @@ html {
     left: 60%;
     top: 45%;
     transform: translate(-50%, -50%);
+  
 }
 
-.back__fonts img{
-    margin-left: 125px;
+
+.left img{
     width: 100%;
-    height: 100vh;
+   position: absolute;
+   height: 100%;
+
 }
 
-.font__left img{
+.right img{
     width: 100%;
-    height: 100vh;
-}
-
-.font__right img{
-    width: 100%;
-  height: 100vh;
+    height: 100%;
+    right: 0;
+    position: absolute;
+   
+ 
 }
 
 .offer__text img {
     position: absolute;
     width: 100%;
     max-width: 900px;
-    height: 350px;
     left: 50%;
-    top: 56%;
+    top: 60%;
     transform: translate(-50%, -50%);
     background-size: contain;
     padding-bottom: 70px;
@@ -88,4 +88,9 @@ html {
     transform: translate(-50%, -50%);
 }
 
-  @import '_media.scss' ;
+   @import '_media.scss' ;
+
+
+
+
+ 
