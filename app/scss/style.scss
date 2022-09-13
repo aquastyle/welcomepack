@@ -5,7 +5,7 @@ html {
     box-sizing: border-box
 }
 
-.welcome__bg {
+body{
     height: 100vh;
     background-image: url(../img/BG.png);
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@ html {
     overflow: hidden;
     object-fit: contain;
 }
+
 
 .font {
     display: flex;
@@ -87,7 +88,6 @@ html {
     transform: translate(-50%, -50%);
 }
 
-//Popup
 // POPUP 
 .popup_overlay {
     position: absolute;
