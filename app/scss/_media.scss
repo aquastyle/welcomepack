@@ -57,6 +57,10 @@
     width: 85%;
   }
 
+  .girl img {
+    left: 60%;
+  }
+
   .dep .deposit .deposit__bonus {
     font-size: 21px;
   }
@@ -65,7 +69,7 @@
 
 @media(max-width:700px) {
   .offer__text img {
-    top: 55%;
+    top: 51%;
   }
 
   .left img {
@@ -167,11 +171,12 @@
   }
 
   .offer__text img {
-    top: 53%;
+    top: 50%;
   }
 
   .girl img {
     max-width: 245%;
+    left: 70%;
   }
 
   .offer__text img {
@@ -212,14 +217,14 @@
   }
 
   .girl img {
-    max-width: 275%;
+    max-width: 290%;
   }
 
   .box img {
     max-width: 50px;
   }
 
-  .button{
+  .button {
     margin-bottom: 10px;
     padding: 18px 45px;
   }
@@ -229,12 +234,15 @@
   .button__bonus {
     font-size: 14px;
   }
-  .deposit .deposit__bonus{
+
+  .deposit .deposit__bonus {
     font-size: 21px;
   }
+
   .deposit {
     font-size: 18px;
-    span{
+
+    span {
       font-size: 18px;
     }
   }

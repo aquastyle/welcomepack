@@ -26,8 +26,8 @@ body {
 //img
 .girl img {
     position: absolute;
-    max-width: 100%;
-    left: 60%;
+    max-width: 67%;
+    left: 55%;
     top: 50%;
     transform: translate(-50%, -50%);
 
@@ -35,14 +35,14 @@ body {
 
 
 .left img {
-    width: 100%;
+    width: 80%;
     position: absolute;
     height: 100%;
 
 }
 
 .right img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     right: 0;
     position: absolute;
@@ -52,10 +52,10 @@ body {
 
 .offer__text img {
     position: absolute;
-    width: 50%;
+    width: 45%;
     left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    transform: translate(-50%, -30%);
     background-size: contain;
 }
 
